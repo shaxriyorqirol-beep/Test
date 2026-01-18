@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akatsuki Login</title>
+    <link rel="icon" type="image/png" href="imgs/login/logo.png">
+    <link rel="stylesheet" href="css/login/style.css">
+</head>
+
+<body>
+    <div class="header-logo">
+        <img src="imgs/login/logo.png" alt="Akatsuki Logo" class="logo" width="162" height="113">
+        <h1>Login to personal account</h1>
+    </div>
+
+    <div class="content">
+        <div class="welcome-section">
+
+            <form action="#" method="post" class="login-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="email" required><br><br>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" autocomplete="username"><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" autocomplete="current-password"><br><br>
+
+                <div class="options">
+                    <div>
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#" class="forget-password">Forget password?</a><br><br>
+                </div>
+
+                <button type="submit" class="login-dashboard" id="login-button">Login</button>
+
+                <div class="social-login">
+                    <button type="button" class="social-btn apple" id="login-apple">
+                        <img src="imgs/login/os.mac.png" alt="Login with Apple">
+                    </button>
+
+                    <button type="button" class="social-btn google" id="login-google">
+                        <img src="imgs/login/google.png" alt="Login with Google">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+    <div class="mini-nav">
+        <div class="line" id="language-selection">
+            <h3>Til almashtirish</h3>
+            <img src="imgs/login/globe.png" alt="Globe icon" class="globe-icon" width="50px" height="50px">
+            <select name="language" id="language">
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+                <option value="uz">O'zbek</option>
+            </select>
+        </div>
+
+        <div class="line" id="info-service">
+            <h3>Yordam xizmati</h3>
+            <img src="imgs/login/information.png" alt="Info icon" class="info-icon">
+            <a href="#">Help</a>
+        </div>
+        <div class="line" id="about-us">
+            <h3>Haqida</h3>
+            <img src="imgs/login/logo.png" alt="icon" class="about-icon" width="60px" height="50px">
+            <a href="#">About Akatsuki</a>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
