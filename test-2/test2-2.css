@@ -1,0 +1,47 @@
+/* Padding */
+.padding {
+  background-color: chartreuse;
+  padding: 20px;
+  border: 1px;
+  margin: 10px;
+}
+
+.box {
+  background-color: aqua;
+  padding: 20px;
+}
+
+.box-1 {
+  background-color: cornflowerblue;
+  padding: 20px;
+}
+
+/* Border */
+.border {
+  background-color: chartreuse;
+  padding: 20px;
+  border: 1px;
+  margin: 10px;
+}
+
+.border {
+  border: 1px, solid;
+}
+
+.border-1 {
+  padding: 10px;
+  border: 1px, solid;
+}
+
+/* Margin */
+.box-margin {
+  background-color: chartreuse;
+  padding: 20px;
+  margin: 10px;
+  border: 1px;
+}
+.margin {
+  background-color: aquamarine;
+  padding: 20px;
+  margin: 20px;
+}
