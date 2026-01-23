@@ -1,0 +1,49 @@
+/* umumiy selector*/
+* {
+  background-color: #0080ff;
+  font-family: Arial, sans-serif;
+}
+
+/* tag selector */
+h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* class selector */
+.css-lessons__description {
+  color: #f0f0f0;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px;
+}
+
+/* id selector */
+#paragrf {
+  color: yellow;
+}
+
+/* Attribute Selector */
+[id] {
+  border: 2px solid #ffffff;
+  padding: 10px;
+}
+
+/* Kaskadlanish */
+h2 {
+  color: chartreuse;
+  font-size: 10px;
+  background-color: indigo;
+}
+#dived {
+  color: aqua;
+  font-size: 25px;
+  background-color: rgb(41, 41, 41);
+}
+
+.tages {
+  color: purple;
+  font-size: 35px;
+  background-color: pink;
+}
