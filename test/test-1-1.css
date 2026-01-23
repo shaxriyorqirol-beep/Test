@@ -1,0 +1,25 @@
+/* Meros Olish Style */
+.div-hero {
+  color: yellow;
+}
+
+.h2-hero {
+  color: blue;
+}
+
+/* Selectorlar va ularning turlari */
+div p {
+  background-color: blueviolet;
+}
+
+div > p {
+  background-color: brown;
+}
+
+h1 + p {
+  background-color: chartreuse;
+}
+
+h1 ~ p {
+  color: deeppink;
+}
