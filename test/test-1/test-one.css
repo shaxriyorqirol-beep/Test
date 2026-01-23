@@ -1,0 +1,62 @@
+/* Bu kod qatori class uchun */
+.div-hero {
+  border: 1px, solid;
+}
+
+.hero {
+  background-color: aqua;
+}
+
+.hero-1 {
+  color: red;
+}
+
+.hero-2 {
+  color: green;
+}
+
+.hero-3 {
+  color: yellow;
+}
+
+/* Bu kod qatori ID uchun */
+#div-hero1 {
+  border: 1px, solid;
+}
+
+#hero {
+  background-color: blue;
+}
+
+#hero-1 {
+  color: red;
+}
+
+#hero-2 {
+  color: green;
+}
+
+#hero-3 {
+  color: yellow;
+}
+
+/* Importand ! uchun kod qatori */
+.div-1 {
+  border: 1px, solid;
+}
+
+h1 {
+  color: red !important;
+}
+
+.h1-1 {
+  color: blue;
+}
+
+.p-1 {
+  color: blueviolet;
+}
+
+.p-2 {
+  color: chartreuse;
+}
