@@ -1,0 +1,33 @@
+/* Height uchun misol */
+.div-div1 {
+  border: 1px solid red;
+}
+
+.hight {
+  background-color: cornflowerblue;
+  height: 300px;
+  width: 500px;
+}
+
+/* Widht uchuun misol */
+.div-div2 {
+  border: 1px solid red;
+}
+
+.widht {
+  background-color: coral;
+  height: 300px;
+  width: 580px;
+}
+
+/* Max height va Min height uchun misol */
+.max-height {
+  background-color: aqua;
+  max-height: 30px;
+  overflow: auto;
+}
+
+.min-height {
+  background-color: cadetblue;
+  min-width: 300px;
+}

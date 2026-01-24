@@ -1,0 +1,40 @@
+/* Block elementlar */
+.heading-1 {
+  background-color: chartreuse;
+}
+
+.heading-2 {
+  background-color: lawngreen;
+}
+
+/* Inline elementlar */
+.a-hero {
+  background-color: aqua;
+}
+
+.a-hero-1 {
+  background-color: aqua;
+}
+
+/* Displey  xossalari */
+/* displey block */
+.to-block {
+  background-color: aqua;
+  display: block;
+}
+
+/* displey inline */
+.to-inline {
+  background-color: rgb(0, 149, 255);
+  display: inline;
+}
+
+.to-inline-block {
+  background-color: darkolivegreen;
+  display: inline-block;
+}
+/* displey none */
+.to-none {
+  background-color: chartreuse;
+  display: none;
+}
