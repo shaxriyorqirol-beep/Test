@@ -1,0 +1,185 @@
+/* chap tomonga tekislash */
+.div-left {
+  border: 1px solid black;
+}
+
+.left {
+  text-align: left;
+  background-color: aquamarine;
+  padding-left: 10px;
+}
+
+/* markazga tekislash */
+.div-center {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.center {
+  text-align: center;
+  background-color: lightcoral;
+}
+
+/* o'ngga tekislash */
+.div-right {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.right {
+  text-align: right;
+  background-color: rgb(170, 174, 57);
+  padding-right: 10px;
+}
+
+/* Vertikal align  top */
+.div-top {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.div-top span {
+  display: inline-block;
+}
+
+.box-1 {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  vertical-align: top;
+}
+
+.box-2 {
+  padding: 10px;
+  width: 100px;
+  height: 200px;
+  background-color: rgb(78, 203, 78);
+  vertical-align: top;
+}
+
+.box-3 {
+  padding: 10px;
+  width: 100px;
+  height: 80px;
+  background-color: rgb(255, 153, 51);
+  vertical-align: top;
+}
+
+/* vertical-align bottom */
+.div-bottom {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.div-bottom span {
+  display: inline-block;
+}
+
+.box-4 {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  vertical-align: bottom;
+}
+
+.box-5 {
+  padding: 10px;
+  width: 100px;
+  height: 200px;
+  background-color: rgb(78, 203, 78);
+  vertical-align: bottom;
+}
+
+.box-6 {
+  padding: 10px;
+  width: 100px;
+  height: 80px;
+  background-color: rgb(255, 153, 51);
+  vertical-align: bottom;
+}
+
+/* vertical-align middle */
+.div-middle {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.div-middle span {
+  display: inline-block;
+}
+
+.box-7 {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  vertical-align: middle;
+}
+
+.box-8 {
+  padding: 10px;
+  width: 100px;
+  height: 200px;
+  background-color: rgb(78, 203, 78);
+  vertical-align: middle;
+}
+
+.box-9 {
+  padding: 10px;
+  width: 100px;
+  height: 80px;
+  background-color: rgb(255, 153, 51);
+  vertical-align: middle;
+}
+
+/* Float left */
+.div-float {
+  border: 1px solid black;
+  margin-top: 20px;
+  padding: 10px;
+  overflow: auto;
+}
+
+.div-float p {
+  display: inline-block;
+}
+
+.float-left {
+  background-color: lightgreen;
+  padding: 5px;
+  float: left;
+  margin-right: 10px;
+  width: 290px;
+  height: 150px;
+}
+
+.float-left-1 {
+  background-color: aqua;
+  padding: 5px;
+  float: right;
+  width: 240px;
+  height: 140px;
+}
+
+/* Float right */
+.float-right {
+  padding: 5px;
+  background-color: lightpink;
+  float: right;
+  margin-left: 10px;
+  width: 290px;
+  height: 150px;
+}
+
+.float-right-2 {
+  padding: 5px;
+  background-color: lightseagreen;
+  float: left;
+  width: 240px;
+  height: 140px;
+}
