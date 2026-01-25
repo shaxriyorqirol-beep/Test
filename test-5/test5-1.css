@@ -1,0 +1,95 @@
+.decoration-1 {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.decoration-malumot {
+  background-color: lightgray;
+  margin: 10px;
+  border-bottom: 2px dashed gray;
+}
+
+/* Matin tagiga chizish. */
+.underline {
+  text-decoration: underline;
+  background-color: yellow;
+}
+
+/* Matin teppasiga chizish. */
+.overline {
+  margin-top: 10px;
+  text-decoration: overline;
+  background-color: lightblue;
+  font-weight: bold;
+}
+
+/* Matin ustidan chizish. */
+.line-through {
+  margin-top: 10px;
+  text-decoration: line-through;
+  background-color: lightgreen;
+}
+
+/* Matinga hech qanday decoration qo'llanmaydi. */
+.none {
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: lightpink;
+}
+
+/* Pseudo-elements 1. */
+.pseudo-elements-2 {
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.pseudo-elements-malumot {
+  text-align: center;
+  background-color: magenta;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: white;
+}
+
+.pseudo-elements-malumot:hover {
+  padding-left: 10px;
+  border: 1px solid red;
+  border-radius: 30px;
+  background-color: rgb(157, 255, 0);
+  color: red;
+  margin: 10px;
+}
+
+/* Pseudo-elements 2. */
+.pseudo-elements-malumot-2 {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: rgb(0, 020, 55);
+  background-color: rgb(0, 255, 81);
+}
+
+.pseudo-elements-malumot-2:active {
+  background-color: orange;
+  color: rgb(0, 0, 0);
+}
+
+/* Guruhlash. */
+.guruhlash-3 {
+  margin-top: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.guruhlash-malumot {
+  text-align: center;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.guruhlash-1,
+.guruhlash-2 {
+  margin-top: 10px;
+}
