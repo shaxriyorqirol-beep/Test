@@ -148,3 +148,105 @@ body {
 .main-section__social-link {
   text-decoration: none;
 }
+
+/* About me section */
+.clearfix {
+  clear: both;
+}
+
+.about-me {
+  margin-right: 0px;
+  display: flex;
+  gap: 40px;
+  padding: 100px 0px;
+}
+
+.about-me > div {
+  width: 50%;
+  float: left;
+}
+
+.about-me__imegs img {
+  margin-left: 40px;
+  width: 520px;
+  height: 500px;
+}
+
+.about-me__info {
+  margin-left: 100px;
+}
+
+.section-submitle {
+  letter-spacing: 3px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #797979;
+  text-transform: uppercase;
+}
+
+.bulur-line {
+  display: inline-block;
+  margin-left: 5px;
+  width: 80px;
+  height: 4px;
+  background-color: #4fcfbe;
+  filter: blur(5px);
+}
+
+.section-submitle__My {
+  margin-top: 5px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #404443;
+  text-transform: capitalize;
+}
+
+.abaut-me__qisqacha {
+  font-size: 16px;
+  font-weight: 300;
+  color: #797979;
+  line-height: 1.8;
+}
+
+.main-section__action-2 {
+  margin-top: 40px;
+  border: none;
+  background-color: #00ffc3;
+  color: #ffffff;
+  padding: 20px 40px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* Services section */
+.service {
+  padding-top: 100px;
+}
+
+.service__card {
+  display: inline-block;
+  width: 20%;
+  height: 500px;
+  padding: 60px 30px;
+  background-color: #797979;
+}
+
+.service-1 {
+  background-color: #00ffc3;
+  width: 300px;
+  height: 300px;
+}
+.service-2 {
+  background-color: #6200ff;
+  width: 300px;
+  height: 300px;
+}
+
+.service-3 {
+  background-color: #ff00d4;
+  width: 300px;
+  height: 300px;
+}
