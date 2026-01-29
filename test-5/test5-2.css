@@ -1,0 +1,95 @@
+/* Positioning styles */
+.positioning__container-1 {
+  border: 2px solid #4caf50;
+  /* padding: 10px; */
+  margin-bottom: 30px;
+}
+
+/* Static positioning */
+.positioning__box-static1 {
+  background-color: #ffcc80;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.positioning__box-static2 {
+  background-color: #90caf9;
+  padding: 20px;
+}
+
+/* Relative positioning */
+.positioning__container-2 {
+  border: 2px solid #f44336;
+  margin-bottom: 30px;
+  /* padding: 10px; */
+}
+
+.positioning__box--relative1 {
+  background-color: #ffcc80;
+  padding: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+
+.positioning__box--relative2 {
+  background-color: #90caf9;
+  padding: 20px;
+}
+
+/* Fixed positioning */
+body {
+  height: 1000px;
+}
+
+.positioning__box--fixed {
+  background-color: #4cd050;
+  height: 200px;
+  width: 200px;
+  position: fixed;
+  top: 100px;
+  right: 0px;
+}
+
+.positioning__box {
+  background-color: #51c94b;
+  padding: 20px;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+/* Absolute positioning */
+.positioning__box--absolute {
+  background-color: #ba68c8;
+  height: 200px;
+  width: 200px;
+  border: #ba68c8;
+  position: relative;
+}
+
+.positioning__box--absolute-child {
+  background-color: #ff5722;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border: 1px solid #ef6d6d;
+  top: 20px;
+  right: 20px;
+}
+
+/* Sticky positioning */
+.height-box {
+  height: 10000px;
+  border: 2px solid #000;
+}
+
+.positioning__box--sticky {
+  position: sticky;
+  top: 10 px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #f27373;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
