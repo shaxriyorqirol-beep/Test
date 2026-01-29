@@ -1,12 +1,22 @@
 /* body core */
 body {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .to-uppercase {
   text-transform: uppercase;
 }
 /* Styles for the main header */
+.main-header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0;
+  background-color: aliceblue;
+  box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+}
 .main-header__developer {
   display: inline-block;
   vertical-align: middle;
@@ -358,4 +368,54 @@ body {
 
 .client-item__star .disablet {
   color: #606060;
+}
+
+/* My Portfolyo */
+.portfolyo {
+  padding: 100px 0;
+}
+
+.portfolyo-item {
+  position: relative;
+  display: inline-block;
+}
+
+.portfolyo__imege {
+  width: 400px;
+  height: 500px;
+}
+
+.portfolyo-item__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(19, 69, 230, 0.9);
+  visibility: hidden;
+}
+
+.portfolyo-item__info {
+  position: absolute;
+  bottom: 44px;
+  left: 80px;
+  color: wheat;
+  visibility: hidden;
+}
+
+.portfolyo-item__info a {
+  color: wheat;
+  text-decoration: none;
+}
+
+.portfolyo-item:hover .portfolyo-item__overlay {
+  top: 20px;
+  left: 20px;
+  visibility: visible;
+}
+
+.portfolyo-item:hover .portfolyo-item__info {
+  visibility: visible;
+  bottom: 24px;
+  left: 60px1;
 }
