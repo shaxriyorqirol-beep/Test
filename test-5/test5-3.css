@@ -1,0 +1,51 @@
+/* Z-index va */
+.z-index__box1 {
+  height: 200px;
+  background-color: lightblue;
+}
+
+.z-index__box2 {
+  height: 100px;
+  position: relative;
+  top: -50px;
+  z-index: 0;
+  background-color: lightcoral;
+}
+
+/* Overflow */
+/* .overflow {
+  border: 1px solid black;
+} */
+
+.overflow__box1 {
+  background-color: lightgreen;
+  border: 1px solid green;
+  height: 300px;
+  width: 300px;
+  overflow: visible;
+}
+
+.overflow__box2 {
+  background-color: lightpink;
+  border: 1px solid red;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.overflow__box3 {
+  background-color: lightgray;
+  border: 1px solid gray;
+  height: 400px;
+  width: 300px;
+  overflow: scroll;
+}
+
+.overflow__box4 {
+  background-color: lightpink;
+  border: 1px solid red;
+  height: 200px;
+  width: 150px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
