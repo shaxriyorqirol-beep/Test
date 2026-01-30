@@ -1,0 +1,14 @@
+.my-image__box1 {
+  border-radius: 30px;
+}
+
+.my-image__box2 {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  opacity: 0.5;
+}
+
+.my-image__box2:hover {
+  opacity: 1;
+}
