@@ -1,0 +1,14 @@
+.bacraund__imeg {
+  background-image: url("../test-2/imgs/download.jpg");
+  /* bacraund repeat */
+  /* background-repeat: repeat; */
+  /* bacraund repeat-x gorizantal */
+  /* background-repeat: repeat-x; */
+  height: 1000px;
+  /* background-repeat: repeat-y; */
+  background-repeat: no-repeat;
+
+  /* background-size: cover; */
+  /* background-size: contain; */
+  /* background-position: left bottom; */
+}
