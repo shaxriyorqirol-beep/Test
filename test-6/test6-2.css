@@ -1,0 +1,40 @@
+.gradiend-box {
+  background-image: linear-gradient(to right, #f85858cc, #0080ff);
+  width: 200px;
+  height: 200px;
+}
+
+.gradiend-box1 {
+  background-image: radial-gradient(circle, #00f18d, #000000, #cdfdff);
+  width: 200px;
+  height: 200px;
+}
+
+/* Filter */
+.filter__box1 {
+  filter: blur(10px);
+}
+
+.filter__box2 {
+  filter: brightness(0.3);
+}
+
+.filter__box3 {
+  filter: contrast(0.3);
+}
+
+.filter__box4 {
+  filter: grayscale(0.9);
+}
+
+.filter__box5 {
+  filter: hue-rotate(300deg);
+}
+
+.filter__box6 {
+  filter: invert(100%);
+}
+
+.filter__box7 {
+  filter: opacity(50%);
+}
