@@ -16,6 +16,7 @@ body {
   margin: 0;
   background-color: aliceblue;
   box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+  z-index: 1;
 }
 .main-header__developer {
   display: inline-block;
